@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className=' bg-white'>
+      <body className='bg-white'>
         <Nav isLoggedin={isLoggedin}/>
         {children}
       </body>

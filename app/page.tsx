@@ -1,9 +1,11 @@
-import CreateMusic from "app/create_music";
+import CreateMusic from "./createMusic";
+import TokenPricing from "./tokenPricing";
 
 const Home: React.FunctionComponent = (): JSX.Element => {
   return (
-    <main className="mt-20 p">
+    <main className="mt-16 even:bg-gray-100">
       <CreateMusic />
+      <TokenPricing />
     </main>
   )
 };

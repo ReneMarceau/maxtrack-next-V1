@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import NavButton from 'components/NavButton';
 
 interface navProps {
@@ -15,12 +16,12 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
         tokenNumber = 31;
         userName = "Natof"
 
-        firstButton = <NavButton 
-            tokenNumber={tokenNumber} 
+        firstButton = <NavButton
+            tokenNumber={tokenNumber}
             content={
                 <Image
                     className="w-4 h-auto ml-2"
-                    src="/images/svg/token.svg" 
+                    src="/images/svg/token.svg"
                     alt="Token icon"
                     width={20}
                     height={20}
@@ -33,14 +34,16 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
         />;
     }
     return (
-        <nav className='fixed top-0 flex justify-between items-center w-full h-20 bg-white overflow-hidden'>
-            <Image
-                className="w-auto h-10 m-auto pl-40"
-                src="/images/png/maxtrack-logo.png"
-                alt='Maxtrack logo'
-                width={100}
-                height={100} 
-            />
+        <nav className='fixed top-0 flex justify-between items-center w-full h-16 bg-white overflow-hidden'>
+            <Link href="/" className="m-auto pl-24">
+                <Image
+                    className="w-auto h-10"
+                    src="/images/png/maxtrack-logo.png"
+                    alt='Maxtrack logo'
+                    width={100}
+                    height={100}
+                />
+            </Link>
             <div className='flex mr-4'>
                 {firstButton}
                 {secondButton}
