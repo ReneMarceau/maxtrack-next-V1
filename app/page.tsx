@@ -1,6 +1,9 @@
+import CreateMusic from "app/create_music";
+
 const Home: React.FunctionComponent = (): JSX.Element => {
   return (
-    <main>
+    <main className="mt-20 p">
+      <CreateMusic />
     </main>
   )
 };

@@ -33,10 +33,10 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
         />;
     }
     return (
-        <nav className='fixed flex justify-between items-center w-full h-24 bg-white overflow-hidden'>
+        <nav className='fixed top-0 flex justify-between items-center w-full h-20 bg-white overflow-hidden'>
             <Image
-                className="w-auto h-16 m-auto"
-                src="/images/png/broken-image.png"
+                className="w-auto h-10 m-auto pl-40"
+                src="/images/png/maxtrack-logo.png"
                 alt='Maxtrack logo'
                 width={100}
                 height={100} 
