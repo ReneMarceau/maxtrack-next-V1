@@ -3,7 +3,7 @@ import TokenPricing from "./tokenPricing";
 
 const Home: React.FunctionComponent = (): JSX.Element => {
   return (
-    <main className="mt-16 even:bg-gray-100">
+    <main className="mt-16 :bg-gray-100">
       <CreateMusic />
       <TokenPricing />
     </main>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import NavButton from 'components/NavButton';
 
-interface navProps {
+interface   navProps {
     isLoggedin: boolean,
 }
 
@@ -21,7 +21,7 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
             content={
                 <Image
                     className="w-4 h-auto ml-2"
-                    src="/images/svg/token.svg"
+                    src="/images/svg/token-white.svg"
                     alt="Token icon"
                     width={20}
                     height={20}
@@ -34,8 +34,8 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
         />;
     }
     return (
-        <nav className='fixed top-0 flex justify-between items-center w-full h-16 bg-white overflow-hidden'>
-            <Link href="/" className="m-auto pl-24">
+        <nav className='fixed top-0 flex justify-between items-center w-full h-16 bg-white shadow-sm overflow-hidden z-10'>
+            <Link href="/" className="m-auto pl-48">
                 <Image
                     className="w-auto h-10"
                     src="/images/png/maxtrack-logo.png"

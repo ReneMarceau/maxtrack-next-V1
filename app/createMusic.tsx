@@ -3,7 +3,7 @@ import CreateButton from "components/CreateButton";
 
 const   CreateMusic: React.FunctionComponent = (): JSX.Element => {
     return (
-        <section className="flex justify-between w-full px-16 py-16 bg-green-10">
+        <section className="flex justify-between w-full px-16 py-16 bg-gray-100">
             <div className=" content-center w-6/12 ml-14">
                 <h1 className="text-3xl font-bold">The best of music</h1>
                 <div className=" w-9/12 border-black mt-8 mb-8">
