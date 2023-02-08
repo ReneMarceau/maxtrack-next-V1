@@ -7,7 +7,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  let isLoggedin: boolean = false;
+  let isLoggedin: boolean = true;
 
   return (
     <html lang="en">

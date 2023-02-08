@@ -14,14 +14,14 @@ const   Nav: React.FunctionComponent<navProps> = ({ isLoggedin }): JSX.Element =
 
     if (isLoggedin) {
         tokenNumber = 31;
-        userName = "Natof"
+        userName = "EthanGrosNez"
 
         firstButton = <NavButton
             tokenNumber={tokenNumber}
             content={
                 <Image
-                    className="w-4 h-auto ml-2"
-                    src="/images/svg/token-white.svg"
+                    className="w-5 h-auto ml-1"
+                    src="/images/png/token-white.png"
                     alt="Token icon"
                     width={20}
                     height={20}

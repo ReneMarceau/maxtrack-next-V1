@@ -4,7 +4,7 @@ const   CreateButton: React.FunctionComponent = (): JSX.Element => {
     return (
         <Link
             className="bg-black text-white px-4 py-2 rounded-md"
-            href="/404-PageNotFound">
+            href="/file-upload">
                 Create
         </Link>
     )

@@ -10,7 +10,7 @@ const   TokenWidgetButton: React.FunctionComponent<tokenWidgetButton> = ({ token
             href="/404-PageNotFound"
             className="px-14 py-1 bg-black text-white shadow-md rounded-md"
         >
-            {tokenPrice} $
+            {tokenPrice} €
         </Link>
     )
 };

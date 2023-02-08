@@ -17,3 +17,27 @@
     border-radius: 8px;
     background-color: #a39f9f;
 }
+
+main {
+    margin-top: 4rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#submit__file {
+    animation-name: submit_file_animation;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes submit_file_animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
